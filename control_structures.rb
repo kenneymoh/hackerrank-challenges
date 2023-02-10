@@ -3,7 +3,7 @@
 # use PUTS for printing
 
 def identify_class(obj)
-  case obj
+  case (obj)
   when Hacker
     puts "It's a Hacker!"
   when Submission
